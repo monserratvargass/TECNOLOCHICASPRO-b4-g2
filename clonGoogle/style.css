@@ -20,6 +20,14 @@ main{
     justify-content: center;
 }
 
+.manita {
+    cursor: pointer;
+}
+
+img[alt="Foto de perfil"] {
+    border-radius: 25px;
+}
+
 #buscador{
     display: flex;
     justify-content: center;
@@ -42,14 +50,26 @@ main{
    height: 30px;
 }
 
-.cuadro{
-    height: 35px;
+#buscador:hover {
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    border-color: transparent;
 }
 
-/* #botones {
-    Funciona con el texto pero tambien con los elementos align
+.cuadro{
+    height: 30px;
+    padding: 4px;
+}
+.cuadro:hover {
+    background-color: #dddddd;
+    border-radius: 25px;
+}
 
-} */
+#botones {
+    /* Funciona con el texto pero tambien con los elementos align */
+    text-align: center;
+
+}
 
 #botones button {
     border: 1px solid #f8f9fa;
@@ -60,8 +80,16 @@ main{
 
 }
 
+/* HOVER: sirve para dar efecto a los elementos */
+#botones button:hover{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+}
+
 #logo {
-    width: 272px;
+    width: 300px;
+    margin: 24px9;
 }
 
 footer{
