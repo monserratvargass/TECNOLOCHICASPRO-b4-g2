@@ -64,6 +64,10 @@ main{
     width: 272px;
 }
 
+footer{
+    background-color: #f2f2f2;
+}
+
 footer ul {
     
     display: flex;
