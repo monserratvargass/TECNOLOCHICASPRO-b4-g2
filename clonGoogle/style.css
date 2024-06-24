@@ -46,10 +46,10 @@ main{
     height: 35px;
 }
 
-#botones {
-    /* Funciona con el texto pero tambien con los elementos align */
+/* #botones {
+    Funciona con el texto pero tambien con los elementos align
 
-}
+} */
 
 #botones button {
     border: 1px solid #f8f9fa;
@@ -73,10 +73,16 @@ footer ul {
     display: flex;
     list-style-type: none;
     font-size: 15px;
+    margin: 8px auto;
 }
 
 footer > div > ul {
     justify-content: center;
+}
+
+.listas-inferiores {
+    border-top: 1px solid #dadce0;
+    display: flex;
 }
 
 a[target]{
