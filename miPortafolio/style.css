@@ -1,0 +1,7 @@
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.893), rgba(0, 52, 105, 0.718)),
+                  url("assets/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+}
