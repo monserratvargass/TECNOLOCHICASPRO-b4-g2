@@ -11,3 +11,22 @@ header{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
+
+.icono-gigante {
+    font-size: 7rem;
+    padding: 5px 10px;
+}
+
+.img-proyecto{
+    width: 100%;
+}
+
+.icono-contacto{
+    font-size: 3rem;
+    color: black;
+    margin: 4px 8px;
+}
+
+#contacto{
+    min-height: 80vh;
+}
